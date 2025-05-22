@@ -7,7 +7,8 @@ import base64
 import os
 
 # 환경변수: 키 파일 경로
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:/vision-key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/etc/secrets/gcp-key.json"
+
 
 
 app = FastAPI()
